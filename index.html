@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+       <h1><marquee behavior="alternate" direction="right"><u>CALCULATOR</u> (+ * - /) x</marquee></h1>
+        <label class="num1">Number 1</label>
+        <input type="number" name="number1" placeholder="............................................."  id="n1"><br>
+        <label class="num2">Number 2</label>
+        <input type="number" name="number2"  placeholder="............................................." id="n2"><br>
+        <h1 id="res"></h1>
+        <div id="btn1">
+            <input type="submit" value="ADD" style=" height: 50px; width:80px;border-radius:20%;" onclick="addition()"> 
+            <input type="submit" value="SUB" style=" height: 50px; width:80px;border-radius:20%;" onclick="subtraction()">
+        </div>
+        <div id="btn2">
+              <input type="submit" value="MUL" style=" height: 50px; width:80px;border-radius:20%;" onclick="Multiplication()">
+                <input type="submit" value="DIV" style=" height: 50px; width:80px;border-radius:20%;"  onclick="Division()">
+        </div> 
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
